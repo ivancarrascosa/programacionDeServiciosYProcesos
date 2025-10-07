@@ -1,9 +1,5 @@
 class CuentaCorriente():
-    __DNI = ""
-    __nombre = ""
-    __saldo = 0
-
-    def  __init__(self, DNI, saldo):
+    def  __init__(self, DNI, saldo, nombre = ""):
         self.__DNI = DNI
         self.__saldo = saldo
     
