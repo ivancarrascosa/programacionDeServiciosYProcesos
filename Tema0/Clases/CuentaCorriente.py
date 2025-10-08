@@ -3,11 +3,6 @@ class CuentaCorriente():
         self.__DNI = DNI
         self.__saldo = saldo
     
-    def __init__(self, DNI, nombre, saldo):
-        self.__DNI = DNI
-        self.__nombre = nombre
-        self.__saldo = saldo
-    
     def __str__(self):
         return(self.__DNI + ": " + self.__nombre + " - " + str(self.__saldo))
     
